@@ -54,14 +54,22 @@
 		ED74A3331E78D59A0090D143 /* FiApp */ = {
 			isa = PBXGroup;
 			children = (
-				ED74A3341E78D59A0090D143 /* AppDelegate.swift */,
 				ED74A3361E78D59A0090D143 /* ViewController.swift */,
 				ED74A3381E78D59A0090D143 /* Main.storyboard */,
+				ED74A3461E78D5D60090D143 /* Supporting Files */,
+			);
+			path = FiApp;
+			sourceTree = "<group>";
+		};
+		ED74A3461E78D5D60090D143 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED74A3341E78D59A0090D143 /* AppDelegate.swift */,
 				ED74A33B1E78D59A0090D143 /* Assets.xcassets */,
 				ED74A33D1E78D59A0090D143 /* LaunchScreen.storyboard */,
 				ED74A3401E78D59A0090D143 /* Info.plist */,
 			);
-			path = FiApp;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +310,7 @@
 				ED74A3451E78D59A0090D143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
